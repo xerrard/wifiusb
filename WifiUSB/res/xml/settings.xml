@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:layout="@layout/preference_category" >
+        <SwitchPreference
+            android:defaultValue="true"
+            android:disableDependentsState="true"
+            android:key="anonymous_preference"
+            android:layout="@layout/switch_preference"
+            android:title="anonymous login" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" >
+        <EditTextPreference
+            android:defaultValue="admin"
+            android:dependency="anonymous_preference"
+            android:key="username_preference"
+            android:layout="@layout/top_preference"
+            android:summary="set the username"
+            android:title="@string/username" />
+        <EditTextPreference
+            android:defaultValue="123456"
+            android:dependency="anonymous_preference"
+            android:key="password_preference"
+            android:layout="@layout/bottom_preference"
+            android:summary="set the password"
+            android:title="@string/password" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="writepermission_perference"
+            android:layout="@layout/switch_preference"
+            android:title="@string/writepermission" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" >
+        <EditTextPreference
+            android:defaultValue="2222"
+            android:key="port_preference"
+            android:layout="@layout/preference"
+            android:summary="set the network port"
+            android:title="@string/port" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

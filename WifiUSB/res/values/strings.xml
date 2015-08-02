@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wireless USB</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="hostip"></string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="anonymous">anonymous</string>
+    <string name="writepermission">readonly</string>
+    <string name="port">port</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="setting">Settings</string>
+    <string name="wifi_state">WLAN State</string>
+    <string name="instruction">Open your PC file explorer to visit the following address</string>
+    <string name="widget_instruction">Open PC file explorer to visit the address</string>
+    <string name="instruction_stopstate">Touch Start button to start</string>
+    <string name="noticeconnectap">Please connect the Wi-Fi AP</string>
+    <string name="noticeopenwifi">Please turn Wi-Fi on</string>
+    <string name="ftp_server">Wireless USB</string>
+    <string name="running">is running</string>
+    <string name="connected">connected</string>
+    <string name="file_transfering">in use</string>
+    <string name="file_transfer_dialog">Wireless USB is still in use</string>
+    <string name="stop_it_anyway">Stop it anyway</string>
+    <string name="list_user">User</string>
+    <string name="list_address">Address</string>
+    <string name="list_state">State</string>
+    <string name="phone_memory_full">Space is not enough or not available!</string>
+    <string name="notice_change_port">Invalid port, The correct port is bettween 1024 and 65535</string>
+    <string name="notice_edittext_empty">Empty is illegal!</string>
+    <string name="users">ftpserver.user.admin.userpassword=21232F297A57A5A743894A0E4A801FC3\r\n
+ftpserver.user.admin.homedirectory=/mnt/sdcard/\r\n
+
+ftpserver.user.admin.enableflag=true\r\n
+
+ftpserver.user.admin.writepermission=false\r\n
+
+ftpserver.user.admin.maxloginnumber=0\r\n
+
+ftpserver.user.admin.maxloginperip=0\r\n
+
+ftpserver.user.admin.idletime=0\r\n
+
+ftpserver.user.admin.uploadrate=0\r\n
+
+ftpserver.user.admin.downloadrate=0\r\n
+
+
+ftpserver.user.anonymous.userpassword=\r\n
+
+ftpserver.user.anonymous.homedirectory=/mnt/sdcard\r\n
+
+ftpserver.user.anonymous.enableflag=true\r\n
+
+ftpserver.user.anonymous.writepermission=false\r\n
+
+ftpserver.user.anonymous.maxloginnumber=0\r\n
+
+ftpserver.user.anonymous.maxloginperip=0\r\n
+
+ftpserver.user.anonymous.idletime=0\r\n
+
+ftpserver.user.anonymous.uploadrate=0\r\n
+
+ftpserver.user.anonymous.downloadrate=0\r\n</string>
+
+</resources>

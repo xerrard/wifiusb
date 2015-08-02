@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+        <!-- 公共资源 -->
+    <dimen name="common_actionbar_btn_margintop">10dp</dimen>
+    <dimen name="common_actionbar_btn_marginleft">15dp</dimen>
+    <dimen name="common_actionbar_layout_height">38dp</dimen>
+    <dimen name="common_actionbar_back_width">39dp</dimen>
+    <dimen name="common_actionbar_back_height">39dp</dimen>
+    <dimen name="common_actionbar_title_text_size">20sp</dimen>
+    <dimen name="common_actionbar_height">57dp</dimen>
+    
+</resources>

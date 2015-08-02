@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionbar_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/common_actionbar_height"
+    android:background="@drawable/global_title_bg">
+    
+    <Button
+        android:id="@+id/actionbar_back"
+        android:layout_width="@dimen/common_actionbar_back_width"
+        android:layout_height="@dimen/common_actionbar_back_height"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/common_actionbar_btn_marginleft"
+        android:layout_marginTop="@dimen/common_actionbar_btn_margintop"
+        android:background="@drawable/common_actionbar_back_style"
+        />
+    <TextView 
+        android:id="@+id/actionbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"  
+        android:textColor="@color/common_actionbar_title_text_color"
+        android:textSize="@dimen/common_actionbar_title_text_size"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
