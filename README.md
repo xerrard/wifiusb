@@ -1,2 +1,2 @@
-# smart_share
-wifip2p file transfer
+# WifiUsb
+wirelessusb used by ftpserver
